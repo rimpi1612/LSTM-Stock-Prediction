@@ -60,6 +60,14 @@ Use the above to answer the following:
 > For the Closing Prices model, decreasing the window size from the initial value of 10 to 5 produced a smaller loss in both cases. This is probably deu to the fact that the longer term window was able to capture some longer term monthly patterns whereas the shorter window could respond faster to short term volatility. In the end, I kept the window size at 10. 
 For the FNG model, reducing the window size to 5 and then to 3 improved significantly the link between the predicted and the actual prices. I kept the window size at 10 so that it is the same as for the Closing Prices model.
 
+The Closing Prices Model
+
+![closing_plot.png](Images/closing_plot.png)
+
+The FNG Model
+
+![fng_plot.png](Images/fng_plot.png)
+
 - - -
 
 ### Resources
